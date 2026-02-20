@@ -379,11 +379,11 @@ export default function App() {
 
       <header className="hero">
         <div className="hero-left">
-          <div className="hero-label">Futura Task Grid</div>
-          <h1>Orchestrate your missions in luminous focus.</h1>
+          <div className="hero-label">Pavni Task Grid</div>
+          <h1>You can do this Pavni,I believe in you.</h1>
           <p>
-            Create a focused group for each mission and fill it with tasks. Mark each
-            task complete to trigger a celebratory burst.
+           You're the most amazing person I know,
+           you can do anything you want to do just need to put focus on it and this will help you my love.
           </p>
         </div>
       </header>
