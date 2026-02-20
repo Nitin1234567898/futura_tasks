@@ -259,16 +259,7 @@ export default function App() {
     } catch {
       // ignore storage parse errors
     }
-    return [
-      {
-        id: makeId(),
-        name: "Launch Protocol",
-        tasks: [
-          { id: makeId(), text: "Draft mission scope", done: false },
-          { id: makeId(), text: "Assemble core team", done: true },
-        ],
-      },
-    ];
+    return [];
   });
   const [groupName, setGroupName] = useState("");
   const [taskInputs, setTaskInputs] = useState({});
