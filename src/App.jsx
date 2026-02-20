@@ -391,8 +391,8 @@ export default function App() {
           <div className="hero-label">Futura Task Grid</div>
           <h1>Orchestrate your missions in luminous focus.</h1>
           <p>
-            Create baskets for each mission and fill them with tasks. Mark each task
-            complete to trigger a celebratory burst.
+            Create a focused group for each mission and fill it with tasks. Mark each
+            task complete to trigger a celebratory burst.
           </p>
         </div>
       </header>
@@ -416,16 +416,16 @@ export default function App() {
         <section className="create-panel glass">
           <form onSubmit={addGroup}>
             <div className="field">
-              <label htmlFor="group-name">Create a basket</label>
+              <label htmlFor="group-name">Create a group</label>
               <input
                 id="group-name"
                 value={groupName}
                 onChange={(event) => setGroupName(event.target.value)}
-                placeholder="New basket name"
+                placeholder="New group name"
               />
             </div>
             <button type="submit" className="primary">
-              Add basket
+              Add group
             </button>
           </form>
         </section>
@@ -452,7 +452,7 @@ export default function App() {
                     className="danger"
                     onClick={() => deleteGroup(group.id)}
                   >
-                    Delete basket
+                    Delete group
                   </button>
                   <div className="progress-ring" style={{ "--progress": progress / 100 }}>
                     <div className="progress-ring-value">{progress}%</div>
